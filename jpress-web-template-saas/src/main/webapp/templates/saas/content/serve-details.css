@@ -1,0 +1,219 @@
+/* CSS Document */
+.banner-wrap{
+	min-width:1200px;
+	overflow:hidden;
+	height:412px;
+	background:url(../Images/servebanner.png) center center no-repeat;
+	background-size:cover;
+	}
+.banner-box{
+	width:1200px;
+	height:412px;
+	overflow:hidden;
+	margin:0 auto;
+	}
+.banner-box p{
+	text-align:center;
+	line-height:78px;
+	color:white;
+	font-size:42px;
+	font-family:"Microsoft YaHei UI";
+	margin-top:110px;
+	}
+/*搜索框*/
+.search-box{
+	width:820px;
+	overflow:hidden;
+	margin:0 auto;
+	margin-top:80px;
+	}
+.search-input{
+	float:left;
+	width:730px;
+	height:44px;
+	line-height:44px;
+	overflow:hidden;
+	background-color:rgba(255,255,255,0.33);
+	border-radius:6px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	}
+.search-img{
+	width:44px;
+	height:44px;
+	overflow:hidden;
+	background:url(../Images/searchicon.png) center center no-repeat;
+	float:left;
+	}
+.search-input input{
+	float:left;
+	height:44px;
+	width:680px;
+	line-height:44px;
+	border:none;
+	outline:none;
+	background-color:transparent;
+	color:#ffffff;
+	font-size:16px;
+	font-family:"Microsoft YaHei";
+	
+	}
+input::-webkit-input-placeholder {
+	color: #ffffff;
+}
+
+.search-button{
+	width:76px;
+	height:42px;
+	margin-top:1px;
+	text-align:center;
+	line-height:42px;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	background-color:#ffffff;
+	font-size:16px;
+	color:#0088cc;
+	cursor:pointer;
+	float:right;
+	}
+/*服务内容*/
+.serve-container-wrap{
+	min-width:1200px;
+	overflow:hidden;
+	}
+.serve-container-box{
+	width:1200px;
+	overflow:hidden;
+	margin:0 auto;
+	padding-top:30px;
+	padding-bottom:190px;
+	}
+.serve-title{
+	padding-bottom:40px;
+	overflow:hidden;
+	color:#425460;
+	}
+.serve-title a{
+	font-size:13px;
+	color:#425460;
+	}
+.serve-title a:hover{
+	color:#03a0ef;
+	}
+.serve-container{
+	overflow:hidden;
+	}
+/*侧边导航*/
+.serve-nav{
+	width:260px;
+	float:left;
+	min-height:578px;
+	overflow:hidden;
+	}
+	
+.details-title{
+	height:24px;
+	margin-bottom:38px;
+	font-size:16px;
+	color:#999999;
+	line-height:24px;
+	}	
+
+.details-title img,.details-title span{
+	vertical-align:middle;
+	}
+
+.details-title span{
+	padding-left:15px;
+	}
+
+/*子导航*/
+.second-nav{
+	padding-left:13px;
+	}
+.second-nav li{
+	height:24px;
+	line-height:24px;
+	vertical-align:middle;
+	overflow:hidden;
+	margin:38px 0px;
+	}
+.second-nav a{
+	border-left:5px solid #ffffff;
+	padding-left:19px;
+	display:block;
+	color:#425460;
+	font-size:16px;
+	font-family:"Microsoft YaHei";
+	}
+.second-nav li .current{
+	border-left:5px solid #f3c670;
+	color:#999999;
+	}
+.second-nav li a:hover{
+	border-left:5px solid #f3c670;
+	color:#999999;
+	}
+	
+	
+/*导航标题对应内容*/
+.right-container{
+	width:880px;
+	float:left;
+	overflow:hidden;
+	background-color:#fafbfc;
+	padding:0 30px 85px 30px;
+	}
+.title-box{
+	border-bottom:1px dashed #dcdcdc;
+	text-align:center;
+	padding-bottom:15px;
+	}
+.title-box p{
+	color:#666666;
+	font-size:18px;
+	padding:42px 0 25px 0;
+	}
+.title-box dl{
+	text-align:center;
+	font-size:12px;
+	color:#9a9a9a;
+	width:230px;
+	margin:0 auto;
+	overflow:hidden;
+	}
+.title-box dl dd{
+	float:left;
+	width:140px;
+	text-align:left;
+	
+	}
+.title-box dl dt{
+	float:left;
+	width:76px;
+	background:url(../Images/eyeicon.png) left center no-repeat;
+	text-align:center;
+	}
+	
+.right-container ul{
+	overflow:hidden;
+	padding-top:22px;
+	font-size:14px;
+	color:#666666;
+	}
+.right-container ul li{
+	margin-bottom:28px;
+	}
+.right-container ul li p{
+	text-indent:2em;
+	font-size:16px;
+	color:#333333;
+	line-height:36px;
+	}
+.right-container ul li span{
+	display:block;
+	text-indent:2em;
+	line-height:30px;
+	color:#666666;
+	}

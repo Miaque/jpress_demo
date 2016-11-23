@@ -1,0 +1,189 @@
+/* CSS Document */
+.banner-wrap{
+	min-width:1200px;
+	overflow:hidden;
+	height:412px;
+	background:url(../Images/servebanner.png) center center no-repeat;
+	background-size:cover;
+	}
+.banner-box{
+	width:1200px;
+	height:412px;
+	overflow:hidden;
+	margin:0 auto;
+	}
+.banner-box p{
+	text-align:center;
+	line-height:78px;
+	color:white;
+	font-size:42px;
+	font-family:"Microsoft YaHei UI";
+	margin-top:110px;
+	}
+/*搜索框*/
+.search-box{
+	width:820px;
+	overflow:hidden;
+	margin:0 auto;
+	margin-top:80px;
+	}
+.search-input{
+	float:left;
+	width:730px;
+	height:44px;
+	line-height:44px;
+	overflow:hidden;
+	background-color:rgba(255,255,255,0.33);
+	border-radius:6px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	}
+.search-img{
+	width:44px;
+	height:44px;
+	overflow:hidden;
+	background:url(../Images/searchicon.png) center center no-repeat;
+	float:left;
+	}
+.search-input input{
+	float:left;
+	height:44px;
+	width:680px;
+	line-height:44px;
+	border:none;
+	outline:none;
+	background-color:transparent;
+	color:#ffffff;
+	font-size:16px;
+	font-family:"Microsoft YaHei";
+	
+	}
+input::-webkit-input-placeholder {
+	color: #ffffff;
+}
+
+.search-button{
+	width:76px;
+	height:42px;
+	margin-top:1px;
+	text-align:center;
+	line-height:42px;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	background-color:#ffffff;
+	font-size:16px;
+	color:#0088cc;
+	cursor:pointer;
+	float:right;
+	}
+/*服务内容*/
+.serve-container-wrap{
+	min-width:1200px;
+	overflow:hidden;
+	}
+.serve-container-box{
+	width:1200px;
+	overflow:hidden;
+	margin:0 auto;
+	padding-top:30px;
+	padding-bottom:190px;
+	}
+.serve-title{
+	padding-bottom:40px;
+	overflow:hidden;
+	}
+.serve-title a{
+	font-size:13px;
+	color:#425460;
+	}
+.serve-title a:hover{
+	color:#03a0ef;
+	}
+.serve-container{
+	overflow:hidden;
+	}
+/*侧边导航*/
+.serve-nav{
+	width:260px;
+	float:left;
+	min-height:578px;
+	overflow:hidden;
+	}
+.serve-nav li{
+	height:52px;
+	line-height:52px;
+	border-left:5px solid #ffffff;
+	vertical-align:middle;
+	overflow:hidden;
+	}
+.serve-nav li a{
+	display:block;
+	color:#425460;
+	font-size:16px;
+	font-family:"Microsoft YaHei";
+	}
+.serve-nav li img,.serve-nav li span{
+	vertical-align:middle;
+	}
+.serve-nav li img{
+	margin:0 28px;
+	}
+.serve-nav .current{
+	border-left:5px solid #f3c670;
+	}
+.serve-nav li:hover{
+	border-left:5px solid #f3c670;
+	}
+/*导航标题对应内容*/
+.right-container{
+	width:940px;
+	float:left;
+	overflow:hidden;
+	background-color:#fafbfc;
+	}
+
+.nav-container{
+	overflow:hidden;
+	}
+.nav-container li{
+	height:64px;
+	margin:0px 13px;
+	border-bottom:1px solid #eeeff0;
+	color:#666666;
+	overflow:hidden;
+	font-size:14px;
+	line-height:64px;
+	cursor:pointer;
+	}
+.nav-container li:last-child{
+	border-bottom:none;
+	}
+.nav-container a{
+	color:#666666;
+	}
+
+.nav-container li .current{
+	color:#0088cc;
+	}
+
+.problem-title{
+	float:left;
+	padding-left:25px;
+	}
+.nav-container li dl{
+	float:right;
+	text-align:center;
+	color:#999999;
+	}
+.nav-container li dl dd{
+	width:150px;
+	float:left;
+	margin-right:20px;
+	}
+.nav-container li dl dt{
+	float:left;
+	width:120px;
+	height:64px;
+	background:url(../Images/eyeicon.png) 10% 50% no-repeat;
+	}

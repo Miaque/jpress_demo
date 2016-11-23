@@ -1,0 +1,272 @@
+/* CSS Document */
+.banner-wrap{
+	min-width:1200px;
+	overflow:hidden;
+	height:412px;
+	background:url(../Images/pbanner.png) center center no-repeat;
+	background-size:cover;
+	}
+.banner-box{
+	width:1200px;
+	height:412px;
+	overflow:hidden;
+	margin:0 auto;
+	}
+.banner-title p{
+	text-align:center;
+	line-height:78px;
+	color:white;
+	font-size:42px;
+	font-family:"Microsoft YaHei UI";
+	margin-top:110px;
+	}
+.banner-title p span{
+	font-size:34px;
+	font-family:"Microsoft YaHei UI Light";
+	}
+/*行业解决方案*/
+.solve-wrap{
+	min-width:1200px;
+	margin:0 auto;
+	overflow:hidden;
+	}
+.solve-box{
+	width:1200px;
+	margin:0 auto;
+	overflow:hidden;
+	padding-top:55px;
+	padding-bottom:50px;
+	}
+.tip{
+	font-size:48px;
+	color:#c1d1db;
+	text-align:center;
+	font-family:"HelveticaNeue LT 33 ThinEx";
+	letter-spacing:2px;
+	padding-bottom:20px;
+	opacity:0.7;
+	}
+/*二级标题*/
+.second-title{
+	font-size:20px;
+	color:#627e90;
+	text-align:center;
+	width:351px;
+	margin:0 auto;
+	background:url(../Images/linebg.png) center center no-repeat;
+	}
+.solve-box ul{
+	overflow:hidden;
+	padding-top:75px;
+	}
+.solve-box ul li{
+	float:left;
+	width:376px;
+	height:275px;
+	overflow:hidden;
+	margin-right:24px;
+	background-color:pink;
+	border-radius:6px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	position:relative;
+	margin-bottom:50px;
+	}	
+.solve-box ul li:nth-child(3n){
+	margin-right:0;
+	}
+.opcity-01{
+	width:376px;
+	height:275px;
+	overflow:hidden;
+	border-radius:6px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	position:absolute;
+	top:0;
+	left:0;
+	background-color:#151c36;
+	opacity:0.4;
+	filter: alpha(opacity=40); /* IE 8 */
+ 	filter: alpha(opacity=40);   /* IE 4-7 */
+    zoom: 1;  
+	z-index:10;
+	}
+.opcity-02{
+	width:376px;
+	height:275px;
+	overflow:hidden;
+	border-radius:6px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	position:absolute;
+	top:0;
+	left:0;
+	background-color:#151c36;
+	opacity:0.8;
+	filter: alpha(opacity=80); /* IE 8 */
+ 	filter: alpha(opacity=80);   /* IE 4-7 */
+    zoom: 1;  
+	z-index:10;
+	display:none;
+	}	
+.trade-01{
+	width:376px;
+	height:275px;
+	overflow:hidden;
+	border-radius:6px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:12;
+	}	
+.trade-01 p{
+	color:#ffffff;
+	font-size:22px;
+	padding-top:115px;
+	text-align:center;
+	}	
+.trade-01 p span{
+	font-size:18px;
+	line-height:40px;
+	font-family:"HelveticaNeue LT 33 ThinEx";
+	}	
+
+.trade-details{
+	width:300px;
+	height:auto;
+	position:absolute;
+	top:0;
+	left:50%;
+	margin-left:-150px;
+	z-index:13;
+	overflow:hidden;
+	display:none;
+	}
+.trade-details p{
+	font-size:18px;
+	color:#ffffff;
+	padding-top:40px;
+	}
+.trade-details dl{
+	width:300px;
+	overflow:hidden;
+	padding-top:20px;
+	}
+.trade-details dl dd{
+	font-size:13px;
+	line-height:24px;
+	color:white;
+	}	
+/*产品指南*/
+.guide-wrap{
+	min-width:1200px;
+	margin:0 auto;
+	overflow:hidden;
+	background-color:#f6f6f6;
+	}
+.guide-box{
+	width:1200px;
+	margin:0 auto;
+	overflow:hidden;
+	padding-top:55px;
+	padding-bottom:50px;
+	}
+.guide-box ul{
+	padding-top:70px;
+	}
+.guide-box ul li{
+	float:left;
+	width:270px;
+	height:245px;
+	margin-right:30px;
+	margin-bottom:20px;
+	}	
+.guide-box ul li .height-245{
+	float:left;
+	width:270px;
+	height:235px;
+	margin-right:30px;
+	background-color:white;
+	margin-bottom:50px;
+	}
+.guide-box ul li:nth-child(4n){
+	margin-right:0;
+	}	
+
+.guide-box ul .height-245:hover{
+	margin-right:24px;
+	border:1px solid rgba(220,218,223,0.42);
+	box-shadow:5px 6px 8px #e8e6ec;
+	-webkit-box-shadow:5px 6px 8px #e8e6ec;
+	-moz-box-shadow:5px 6px 8px #e8e6ec;
+	}
+
+.guide-img{
+	width:270px;
+	height:170px;
+	overflow:hidden;
+	position:relative;
+	}
+
+.guide-opcity{
+	width:270px;
+	height:170px;
+	position:absolute;
+	top:0;
+	left:0;
+	background-color:#000000;
+	opacity:0.2;
+	filter: alpha(opacity=20); /* IE 8 */
+ 	filter: alpha(opacity=20);   /* IE 4-7 */
+    zoom: 1;  
+	z-index:100;
+	}
+.guide-box ul li p{
+	font-size:17px;
+	color:#444444;
+	padding-left:10px;
+	line-height:28px;
+	padding-top:7px;
+	}
+
+.guide-box ul li span{
+	padding-left:10px;
+	display:block;
+	font-size:12px;
+	color:#606060;
+	}
+
+/*了解更多*/
+.know-more-wrap{
+	min-width:1200px;
+	overflow:hidden;
+	margin:0 auto;
+	}
+.know-more-box{
+	width:1200px;
+	margin:0 auto;
+	height:240px;
+	overflow:hidden;
+	}
+.know-more{
+	width:180px;
+	height:60px;
+	border-radius:6px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	background-color:#0088cc;
+	text-align:center;
+	line-height:60px;
+	color:#f0f6fb;
+	cursor:pointer;
+	font-size:22px;
+	font-family:"Microsoft YaHei";
+	margin:0 auto;
+	margin-top:90px;
+	}
+.know-more:hover{
+	background-color:#007ab7;
+	}

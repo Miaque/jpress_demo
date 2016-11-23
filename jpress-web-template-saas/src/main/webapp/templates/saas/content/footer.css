@@ -1,0 +1,229 @@
+@charset "utf-8";
+.index-bg {
+    min-width: 1200px;
+    background-size: cover;
+	font-family:"Microsoft YaHei";
+}
+.index-wrap {
+    min-width: 1200px;  
+}
+
+h1{
+	font-size:40px;
+	color:#425460;
+	text-align:center;
+	padding-bottom:15px;
+	font-family:"Microsoft YaHei UI";
+   }
+h3{
+	font-size:20px;
+	color:#425460;
+	text-align:center;
+	padding-bottom:20px;
+	}
+.line{
+	width:80px;
+	height:1px;
+	background-color:#425460;
+	margin:0 auto;
+	}
+.t-right{
+	text-align:right;
+	}
+.t-left{
+	text-align:left;
+	}
+
+/*导航框*/
+.header-wrap {
+	width:100%;
+    min-width: 1200px;
+    height: 70px;
+	position:absolute;
+	top:0;
+	z-index:9999;
+	margin:0 auto;
+}
+
+/*头部导航*/
+.header{
+	width:1200px;
+	height:70px;
+    margin: 0 auto;
+	}
+
+.logo{
+	float:left;
+	margin-top:20px;
+	background:url(../images/logoblack.png) no-repeat;
+	width:157px;
+	height:29px;
+	}
+.nav-banner{
+	float:right;
+	height:70px;
+	width:770px;
+	}
+.nav-banner ul .current{
+	color:#03a0ef;
+	}
+
+.nav-banner ul li{
+	float:left;
+	height:70px;
+	line-height:70px;
+	color:#fff;
+	font-size:16px;
+	text-align:center;
+	font-family:"微软雅黑";
+	list-style:none;
+	margin:0 25px;
+	position:relative;
+	}
+.nav-banner ul li:hover{
+	color:#03a0ef;
+	cursor:pointer;
+	}
+.main{
+	margin:0 auto;
+	}
+
+
+
+
+/*下拉菜单*/
+.btns{ 
+	width:80px; 
+	height:102px; 
+	padding-bottom:5px; 
+	background-color:white;
+	position:absolute;
+	z-index:9999;
+	left:50%;
+	margin-left:-40px;
+	display:block;
+	top:0;
+	margin-top:70px;
+	display:none;
+	}
+.btns dd{
+	font-size:16px; 
+	color:#5a5a5a; 
+	line-height:34px;
+	text-align:center; 
+	width:80px; 
+	height:34px; 
+	}
+.btns dd:hover{
+	color:#03a0ef;
+	}
+
+/*导航框白色*/
+.header-wrap-white {
+	width:100%;
+    min-width: 1200px;
+    height: 70px;
+	margin:0 auto;
+	background-color:white;
+}
+
+/*头部导航白色框*/
+.header-white{
+	width:1200px;
+	height:70px;
+    margin: 0 auto;
+	}
+
+.logo-blue{
+	float:left;
+	margin-top:20px;
+	background:url(../images/logo-blue.png) no-repeat;
+	width:157px;
+	height:29px;
+	}
+.nav-banner-white{
+	float:right;
+	height:70px;
+	width:770px;
+	}
+.nav-banner-white ul .current{
+	color:#03a0ef;
+	}
+
+.nav-banner-white ul li{
+	height:70px;
+	line-height:70px;
+	float:left;
+	color:#425460;
+	font-size:16px;
+	text-align:center;
+	font-family:"微软雅黑";
+	list-style:none;
+	margin:0 25px;
+	position:relative;
+	}
+.nav-banner-white ul li:hover{
+	color:#03a0ef;
+	cursor:pointer;
+	}
+
+/*页脚*/
+.footer-wrap{
+	min-width:1200px;
+	background-color:#20242f;
+	margin:0 auto;
+	}
+.footer{
+	width:1200px;
+	margin:0 auto;
+	height:200px;
+	position:relative;
+	background-color:#20242f;
+	}
+.left-details{
+	width:1000px;
+	overflow:hidden;
+	float:left;
+	}
+.footer-nav{
+	overflow:hidden;
+	padding-top:40px;
+	}
+.footer-nav li{
+	padding-right:30px;
+	float:left;
+	color:#a4b8c1;
+	font-size:16px;
+	}
+.footer-nav li a{
+	display:block;
+	padding-right:20px;
+	float:left;
+	color:#a4b8c1;
+	font-size:16px;
+	}
+
+.left-details p{
+	margin-top:40px;
+	color:#b4bebf;
+	font-size:14px;
+	}
+.left-details p span{
+	color:#a09483;
+	font-size:32px;
+	font-family:"Bell MT";
+	}
+
+.trade-mark{
+	margin-top:15px;
+	color:#b4bebf;
+	font-size:14px;
+	}
+.weixin-icon{
+	width:98px;
+	height:125px;
+	float:right;
+	margin-top:40px;
+	background:url(../Images/weinxin-icon.png) no-repeat;
+	}
+	

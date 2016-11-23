@@ -1,0 +1,97 @@
+/* CSS Document */
+.banner-wrap{
+	position:relative;
+	overflow:hidden;
+	height:630px;
+	width:100%;
+	}
+	
+.banner-box{
+	overflow:hidden;
+	height:630px;
+	background:url(../Images/centerbanner.png) center center no-repeat;
+	background-size:cover;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	z-index:100;
+	}
+
+
+/*行业解决方案*/
+.center-wrap{
+	min-width:1200px;
+	margin:0 auto;
+	overflow:hidden;
+	}
+.center-box{
+	width:1200px;
+	margin:0 auto;
+	overflow:hidden;
+	padding-top:100px;
+	padding-bottom:150px;
+
+	}
+.download-guide-wrap{
+	width:1200px;
+	overflow:hidden;
+	}
+.center-show{
+	width:584px;
+	height:489px;
+	overflow:hidden;
+	background:url(../Images/center-show-img.png) no-repeat;
+	float:left;
+	margin-top:110px;
+	}
+.download-guide-wrap ul{
+	width:580px;
+	overflow:hidden;
+	margin-top:110px;
+	float:right;
+	}
+.download-guide-wrap ul li{
+	width:190px;
+	overflow:hidden;
+	text-align:center;
+	margin-left:100px;
+	float:left;
+	}
+.img-box{
+	height:230px;
+	overflow:hidden;
+	line-height:200px;
+	}
+.download-guide-wrap ul li .img-box img{
+	vertical-align:middle;
+	}
+.download-guide-wrap ul li p{
+	font-size:24px;
+	color:#425460;
+	font-family:"Microsoft YaHei";
+	}
+.download-guide-wrap ul li p span{
+	font-size:12px;
+	color:#425460;
+	line-height:44px;
+	}
+.down-btn{
+	width:180px;
+	height:50px;
+	border-radius:6px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border:1px solid #0088cc;
+	text-align:center;
+	line-height:50px;
+	color:#0088cc;
+	font-size:20px;
+	cursor:pointer;
+	margin-top:25px;
+	font-family:"Microsoft YaHei"
+	}
+.down-btn:hover{
+	color:#ff8800;
+	border:1px solid #ff8800;
+	}
